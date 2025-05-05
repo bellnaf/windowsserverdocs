@@ -13,7 +13,7 @@ ms.assetId: 7b9f9a4f-888c-4358-bacd-3237661b1935
 
 
 > [!IMPORTANT]
-> If you want to create an AD FS farm and use SQL Server to store your configuration data, you can use SQL Server 2008 or higher.
+> If you want to create an AD FS farm and use SQL Server to store your configuration data, you can use SQL Server 2019 or higher.
 
 If you are using SQL Server as your AD FS configuration database, you can set up geo\-redundancy for your AD FS farm using SQL Server replication. Geo\-redundancy replicates data between two geographically distant sites so that applications can switch from one site to another. This way, in case of the failure of one site, you can still have all the configuration data available at the second site. For more information, see the "SQL Server geographic redundancy section" in [Federation Server Farm Using SQL Server](../design/Federation-Server-Farm-Using-SQL-Server.md).
 
